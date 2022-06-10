@@ -1,0 +1,136 @@
+html {
+    background-color: rgb(226, 226, 226);
+}
+html.backgroundDark {
+    background-color: rgb(36, 36, 36);
+}
+h1 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+.aboveText {
+    width: 66%;
+    margin: 0 auto;
+
+}
+.aboveText h1 {
+    margin-bottom: 0;
+}
+
+
+.aboveTextDark {
+    width: 66%;
+    margin: 0 auto;
+
+}
+.aboveTextDark h1 {
+    margin-bottom: 0;
+    color: white;
+}
+
+
+.borderSmall {
+    width: 80px;
+    border: 1px solid black;
+    margin: 15px 0 15px 17%;
+}
+
+
+.borderSmallDark {
+    width: 80px;
+    border: 1px solid white;
+    margin: 15px 0 15px 17%;
+}
+
+
+.itemsDisplay {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 10px grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0;
+}
+.itemsDisplay p {
+    font-size: 25px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+
+.itemsDisplayDark {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0;
+}
+.itemsDisplayDark p {
+    font-size: 25px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+#masterContent {
+    width: 66%;
+    margin: 0 auto;
+}
+.p1 {
+    padding-left: 20px;
+    width: 40%;
+}
+.p2 {
+    padding-left: 90px;
+    width: 30%;
+}
+.p3 {
+    padding-left: 90px;
+    width: 45%;
+}
+.button {
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.button p {
+    height: 50px;
+    font-size: 25px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+
+.buttonDark {
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.buttonDark p {
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
